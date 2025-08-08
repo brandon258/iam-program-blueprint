@@ -68,7 +68,7 @@ iam-program-blueprint/
 
 ## Status
 
-🚧 Initial scaffolding in progress — contributions to each folder coming soon.
+Initial scaffolding in progress — contributions to each folder coming soon.
 
 ---
 
