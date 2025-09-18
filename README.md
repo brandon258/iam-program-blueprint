@@ -52,8 +52,49 @@ iam-program-blueprint/
 - Show how I would design and scale an IAM program from scratch.
 - Provide practical code and architecture examples.
 - Include strategy, security, and governance best practices.
-- Demonstrate tools I’ve worked with (Keycloak, FastAPI, Terraform, Okta, AWS IAM, etc.).
+- Demonstrate tools I’ve worked with (Keycloak, Auth0, Terraform, Okta, AWS IAM, etc.).
 - Communicate systems thinking, leadership, and security expertise.
+
+---
+
+## IAM Program Pillars
+
+### 1. Strategy & Vision
+
+- IAM should enable productivity securely—not create friction.
+- Design for automation, auditability, and scalability.
+- Balance security and usability.
+
+### 2. Discovery & Stakeholder Engagement
+
+- Start with systems inventory and stakeholder interviews.
+- Understand existing access patterns and pain points.
+- Diagram identity data flows from HRIS to endpoints.
+
+### 3. Architecture & Integration
+
+- Choose IdP (Okta, Keycloak, Auth0) based on ecosystem.
+- Design SSO patterns (SAML/OIDC) with just-in-time provisioning.
+- Implement SCIM, RBAC/ABAC, and access workflows.
+- Integrate with AWS, Kubernetes, and CI/CD systems.
+
+### 4. Security Controls
+
+- Enforce MFA with adaptive and FIDO2 support.
+- Enforce least privilege with role modeling.
+- Use Terraform or GitOps to manage identity infrastructure.
+
+### 5. Governance & Operations
+
+- Define joiner/mover/leaver flows.
+- Automate access reviews and role cleanup.
+- Centralize logging and audit trails for review and incident response.
+
+### 6. Future Considerations
+
+- Move toward passwordless and passkeys.
+- Introduce IGA platforms as needed (SailPoint, Saviynt).
+- Maintain security posture through continuous access analytics.
 
 ---
 
@@ -66,9 +107,17 @@ iam-program-blueprint/
 
 ---
 
+## About the Author
+
+This repo is maintained by an engineer focused on Identity, DevOps, and platform security. It serves both as a learning aid and a demonstration of how I approach end-to-end IAM ownership in a modern cloud-native enterprise.
+
+You can view more of my work or connect with me on [LinkedIn](https://www.linkedin.com/in/brandonhelmer/).
+
+---
+
 ## Status
 
-Initial scaffolding in progress — contributions to each folder coming soon.
+Initial structure is complete. Artifacts and diagrams coming soon.
 
 ---
 
