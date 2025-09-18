@@ -14,35 +14,37 @@ While I have not yet led a greenfield IAM initiative professionally, this projec
 iam-program-blueprint/
 ├── README.md
 ├── 0-strategy/
-│   ├── iam-vision.md
-│   ├── stakeholder-map.md
-│   └── governance-model.md
+│ ├── iam-vision.md
+│ ├── stakeholder-map.md
+│ └── governance-model.md
 ├── 1-discovery/
-│   ├── systems-inventory-template.xlsx
-│   ├── identity-data-flow-diagram.png
-│   └── questions-for-stakeholders.md
+│ ├── systems-inventory-template.xlsx
+│ ├── identity-data-flow-diagram.png
+│ └── questions-for-stakeholders.md
 ├── 2-architecture/
-│   ├── high-level-architecture.drawio
-│   ├── idp-vs-sp-decision.md
-│   └── identity-lifecycle.md
+│ ├── high-level-architecture.drawio
+│ ├── idp-vs-sp-decision.md
+│ └── identity-lifecycle.md
 ├── 3-implementation/
-│   ├── open-source-vs-commercial.md
-│   ├── example-poc/
-│   │   ├── README.md
-│   │   ├── docker-compose.yml
-│   │   └── keycloak-fastapi-poc/
+│ ├── open-source-vs-commercial.md
+│ ├── example-poc/
+│ │ ├── README.md
+│ │ ├── docker-compose.yml
+│ │ └── keycloak-fastapi-poc/
 ├── 4-security-controls/
-│   ├── mfa-policy.md
-│   ├── least-privilege-principles.md
-│   └── secrets-management.md
+│ ├── mfa-policy.md
+│ ├── least-privilege-principles.md
+│ ├── secrets-management.md
+│ └── just-in-time-access.md
 ├── 5-governance-and-operations/
-│   ├── access-review-process.md
-│   ├── onboarding-offboarding.md
-│   └── break-glass-access.md
+│ ├── access-review-process.md
+│ ├── access-review-automation.md
+│ ├── onboarding-offboarding.md
+│ └── break-glass-access.md
 └── 6-future-considerations/
-    ├── passwordless.md
-    ├── identity-governance.md
-    └── audit-readiness.md
+├── passwordless.md
+├── identity-governance.md
+└── audit-readiness.md
 ```
 
 ---
@@ -95,6 +97,14 @@ iam-program-blueprint/
 - Move toward passwordless and passkeys.
 - Introduce IGA platforms as needed (SailPoint, Saviynt).
 - Maintain security posture through continuous access analytics.
+
+---
+
+## IAM Projects Included
+
+- [Access Review Process](./5-governance-and-operations/access-review-process.md)
+- [Access Review Automation](./5-governance-and-operations/access-review-automation.md)
+- [Just-in-Time Access Evaluation](./4-security-controls/just-in-time-access.md)
 
 ---
 
