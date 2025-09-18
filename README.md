@@ -4,7 +4,7 @@
 
 This repository provides a strategic and technical blueprint for building an Identity & Access Management (IAM) program from scratch in a modern enterprise environment.
 
-While I have not yet led a greenfield IAM initiative professionally, this project showcases how I would approach the challenge—both at a high level and with tangible artifacts, templates, and working code. It is intended to demonstrate readiness for roles that require end-to-end IAM leadership, such as the Senior IAM Engineer role at Moveworks.
+While I have not yet led a greenfield IAM initiative professionally, this project showcases how I would approach the challenge—both at a high level and with tangible artifacts, templates, and working code. It is intended to demonstrate readiness for roles that require end-to-end IAM leadership.
 
 ---
 
