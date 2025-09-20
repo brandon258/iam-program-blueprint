@@ -23,7 +23,7 @@ In the early discovery phase, the goals were:
 - Ensure approvals are auditable and time-bound
 - Integrate with the existing IdP and HRIS
 
-## Key Features Desired
+## Key Features
 
 - **Time-boxed access** with automatic revocation
 - **Approval workflows** with logging and notifications
@@ -31,7 +31,7 @@ In the early discovery phase, the goals were:
 - **Audit trail** exportable to compliance systems
 - **Integration** with existing tools (SSO, HRIS, ITSM)
 
-## Vendors Under Evaluation
+## Potential Vendors
 
 Initial vendors being considered include:
 
